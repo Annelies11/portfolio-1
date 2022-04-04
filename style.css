@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1985eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header > li, a , button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #e8f7fc;
+    text-decoration: none;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;    
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+header button {
+    padding: 9px 25px;
+    background-color: #272a42;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header button:hover {
+    background-color: rgba(0,136,169,1);
+}
+
+.background {
+    position: relative;
+    text-align: center;
+}
+
+.background img {
+    width: 300px;
+}
+
+.background h1 {
+    font-family: 'Montserrat';
+    color: #e8f7fc;
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+.background h2{
+    font-family: 'Montserrat';
+    color: #e8f7fc;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.background h2 span {
+    color: #061ab7;
+}
+
+.medsos {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.medsos img {
+    width: 20px;
+    margin: 0 30px;
+    cursor: pointer;
+}
